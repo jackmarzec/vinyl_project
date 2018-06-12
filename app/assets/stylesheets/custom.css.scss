@@ -1,0 +1,49 @@
+$navbar-default-bg: #CA4A2F;
+
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+.vinyl-title {
+  color: #fff;
+}
+
+/*Sub Header*/
+
+.jumbotron {
+  text-align: center;
+  padding-top: -10px;
+  background-image: asset-url('background_vinyl.jpg');
+  background-size: cover;
+  height: 300px;
+}
+
+.btn {
+  background-color: #CA4A2F;
+  outline: #CA4A2F;
+}
+
+/*Container Headings */
+
+.row-section {
+  text-align: center;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.jumbotron h1 {
+  color: #fff;
+  text-align: center;
+  margin-bottom: 30px;
+  letter-spacing: -1px;
+  font-weight: bold;
+}
+
+.btn-xlarge {
+  background-color: #CA4A2F;
+}
+
+.btn-xlarge:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
